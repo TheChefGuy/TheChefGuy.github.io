@@ -10,6 +10,8 @@
 $("#main").append(internationalizeButton);
 */
 
+$("#mapDiv").append(googleMap);
+
 var awesomeThoughts = "I am Joshua and I amd AWESOME!";
 console.log(awesomeThoughts);
 
@@ -20,7 +22,10 @@ var bio = {
         "mobile" : "string",
         "email" : "string" ,
         "github" : "string",
-        "location" : "string",
+        "location" : "los angeles, ca",
+        "residence" : [
+            "Seoul, South Korea", "Berlin, Germany", "Beijing, China"
+        ]
     },
     "welcomeMsg" : "\"The day I broke up with normal, was the first day of my magical life!\"",
     "skills" : [
@@ -139,21 +144,21 @@ var work = {
         {
             "employer": "Remote Full Benefit Job #1",
             "title": "Front-end Web Designer",
-            "location": "remote",
+            "location": "los angeles, ca",
             "dates": "Janurary 2000 - Current",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
             "employer": "Remote Full Benefit Job #2",
             "title": "Front-end Web Designer",
-            "location": "remote",
+            "location": "los angeles, ca",
             "dates": "Janurary 2000 - Current",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
             "employer": "Remote Full Benefit Job #3",
             "title": "Front-end Web Designer",
-            "location": "remote",
+            "location": "los angeles, ca",
             "dates": "Janurary 2000 - Current",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
