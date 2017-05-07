@@ -1,15 +1,3 @@
-/*  function inName(name) {
-    name = name.trim().split(" ");
-    console.log(name);
-    name[1] = name[1].toUpperCase();
-    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
-    
-    return name[0] + " "+ name[1];
-}; 
-
-$("#main").append(internationalizeButton);
-*/
-
 $("#mapDiv").append(googleMap);
 
 var awesomeThoughts = "I am Joshua and I amd AWESOME!";
@@ -183,19 +171,6 @@ for (job in work.jobs) {
 };
 displayWork();
 
-/* function locationizer(work_obj) {
-    var locationArray = [];
-
-    for (job in work_obj.jobs) {
-        var newLocation = work_obj.jobs[job].location;
-        locationArray.push(newLocation);
-    }
-    return locationArray;
-}
-
-console.log(locationizer(work));
-*/
-
 var projects = {
 	"projects": [
         {
@@ -243,3 +218,29 @@ projects.display = function() {
     }
 };
 projects.display();
+
+/* function locationizer(work_obj) {
+    var locationArray = [];
+
+    for (job in work_obj.jobs) {
+        var newLocation = work_obj.jobs[job].location;
+        locationArray.push(newLocation);
+    }
+    return locationArray;
+}
+
+console.log(locationizer(work));
+*/
+
+
+/*  function inName(name) {
+    name = name.trim().split(" ");
+    console.log(name);
+    name[1] = name[1].toUpperCase();
+    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+    
+    return name[0] + " "+ name[1];
+}; 
+
+$("#main").append(internationalizeButton);
+*/
