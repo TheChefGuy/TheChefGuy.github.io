@@ -19,7 +19,7 @@ var bio = {
     "skills": [
         "UX / UI", " HTML5 / CSS3", " JS / jQuery", " Teaching"
     ],
-    "biopic": "images/MG_3764-1-683x1024-500x500.jpg"
+    "biopic": "images/MG_3764-1-683x1024-500x500-800_large_1x.jpg"
 };
 
 bio.display = function() {
@@ -93,8 +93,8 @@ var projects = {
             "dates": "2017",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "images": [
-                "images/ending.jpg",
-                "images/IMG_0113-768x1024.jpg",
+                "images/ending-800_large_1x.jpg",
+                "images/IMG_0113-768x1024-800_large_1x.jpg",
                 "images/IMG_0002.JPG"
             ]
         },
@@ -103,9 +103,9 @@ var projects = {
             "dates": "2017",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "images": [
-                "images/IMG_0190.jpg",
+                "images/IMG_0190-800_large_1x.jpg",
                 "images/DSC00190.JPG",
-                "images/IMG_1433-4-1024x768.jpg"
+                "images/IMG_1433-4-1024x768-800_large_1x.jpg"
             ]
         }
     ]
