@@ -1,6 +1,4 @@
-$("#mapDiv").append(googleMap);
-
-var awesomeThoughts = "I am Joshua and I am AWESOME!";
+var awesomeThoughts = "I am Soon Joo and I am AWESOME!";
 console.log(awesomeThoughts);
 
 var bio = {
@@ -17,7 +15,7 @@ var bio = {
     },
     "welcomeMessage": "\"The day I broke up with normal, was the first day of my magical life!\"",
     "skills": [
-        "UX / UI", " HTML5 / CSS3", " JS / jQuery", " Teaching"
+        "UX / UI", " HTML5 / CSS3", " JS / jQuery", " GitHub / GruntJS"
     ],
     "biopic": "images/MG_3764-1-683x1024-500x500-800_large_1x.jpg"
 };
@@ -44,7 +42,6 @@ bio.display = function() {
         $("#skills").append(formattedSkill);
     });
 };
-bio.display();
 
 var work = {
     "jobs": [{
@@ -85,7 +82,6 @@ work.display = function() {
         $(".work-entry:last").append(formattedEmployerTitle);
     });
 };
-work.display();
 
 var projects = {
     "projects": [{
@@ -117,7 +113,7 @@ projects.display = function() {
         $("#projects").append(HTMLprojectStart);
 
         var formattedTitle = HTMLprojectTitle.replace("%data%", project.title);
-        var formattedDates = HTMLprojectDates.replace("%data%", project.date);
+        var formattedDates = HTMLprojectDates.replace("%data%", project.dates);
         var formattedDescription = HTMLprojectDescription.replace("%data%", project.description);
         $(".project-entry:last").append(formattedTitle + formattedDates + formattedDescription);
 
@@ -129,16 +125,15 @@ projects.display = function() {
         }
     });
 };
-projects.display();
 
 var education = {
     "schools": [{
-        "name": "Art Institute",
-        "location": "Los Angeles",
-        "degree": "BA",
-        "majors": ["Restaurant Managment", " Baking Pastry & Dessert"],
-        "dates": "2007",
-        "url": ["http://example.com"]
+        "name": "",
+        "location": "Los Angeles, ca",
+        "degree": "",
+        "majors": [""],
+        "dates": "",
+        "url": ["http://example.com/"]
     }],
     "onlineCourses": [{
             "title": "Front-End Web Developer",
@@ -178,7 +173,7 @@ education.display = function() {
 
         $("#education").append(HTMLschoolStart);
 
-        var formattedSchool = HTMLschoolName.replace("%data%", school.name);
+        var formattedSchool = HTMLschoolName.replace("%data%", school.name).replace("#", school.url);
         var formattedDegree = HTMLschoolDegree.replace("%data%", school.degree);
         var formattedDates = HTMLschoolDates.replace("%data%", school.dates);
         var formattedLocation = HTMLschoolLocation.replace("%data%", school.location);
@@ -197,23 +192,8 @@ education.display = function() {
         $(".education-entry:last").append(formattedonlineTitle + formattedonlineSchool + formattedonlineDates + formattedonlineURL);
     });
 };
-education.display();
 
-/* function locationizer(work_obj) {
-    var locationArray = [];
-
-    for (job in work_obj.jobs) {
-        var newLocation = work_obj.jobs[job].location;
-        locationArray.push(newLocation);
-    }
-    return locationArray;
-}
-
-console.log(locationizer(work));
-*/
-
-
-/*  function inName(name) {
+function inName(name) {
     name = name.trim().split(" ");
     console.log(name);
     name[1] = name[1].toUpperCase();
@@ -222,5 +202,10 @@ console.log(locationizer(work));
     return name[0] + " "+ name[1];
 }; 
 
+$("#mapDiv").append(googleMap);
 $("#main").append(internationalizeButton);
-*/
+
+bio.display();
+work.display();
+projects.display();
+education.display();

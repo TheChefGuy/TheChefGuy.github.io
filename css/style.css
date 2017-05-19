@@ -164,7 +164,6 @@ ul {
 }
 
 img {
-  height: 100%;
   width: 100%;
   padding: 10px;
 }
@@ -208,7 +207,13 @@ span {
   }
 }
 
-#map {
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+
+  #map {
   display: block;
   height: 100%;
   margin: 0 5%;
@@ -218,11 +223,5 @@ span {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
-}
-
-@media only screen and (min-width: 750px) {
-  #skills-h3,
-  .biopic {
-    display: block;
   }
 }
