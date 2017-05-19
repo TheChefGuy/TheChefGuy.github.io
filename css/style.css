@@ -195,7 +195,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
   #lets-connect {
     margin-top: 10%;
   }
@@ -205,9 +205,13 @@ span {
   .welcome-message {
     display: none;
   }
+
+  #projects img {
+    width: 65%;
+  }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 300px) {
   #skills-h3,
   .biopic {
     display: block;
