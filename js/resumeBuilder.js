@@ -1,21 +1,21 @@
-var awesomeThoughts = "I am Soon Joo and I am AWESOME!";
+var awesomeThoughts = "I am Joshua and I am AWESOME!";
 console.log(awesomeThoughts);
 
 var bio = {
-    "name": "Fake Name",
+    "name": "Joshua Bruck",
     "role": "Web Designer",
     "contacts": {
-        "mobile": "string",
-        "email": "string",
-        "github": "string",
+        "mobile": "(310) 683-8953",
+        "email": "JoshuaSBruck@gmail.com",
+        "github": "Github.com/TheChefGuy",
         "location": "Los Angeles, Ca",
         "residence": [
-            "Seoul, South Korea", "Berlin, Germany", "Beijing, China"
+            "boulder, colorado", "new york, new york"
         ]
     },
     "welcomeMessage": "\"The day I broke up with normal, was the first day of my magical life!\"",
     "skills": [
-        "UX / UI", " HTML5 / CSS3", " JS / jQuery", " GitHub / GruntJS"
+        "UX / UI", " HTML5 / CSS3", " JS / jQuery", " GitHub / GruntJS" , "Photoshop / Sketch"
     ],
     "biopic": "images/MG_3764-1-683x1024-500x500-800_large_1x.jpg"
 };
@@ -45,25 +45,11 @@ bio.display = function() {
 
 var work = {
     "jobs": [{
-            "employer": "Remote Full Benefit Job #1",
-            "title": "Front-end Web Designer",
+            "employer": "College of the Canyons",
+            "title": "Adjunct Instructor",
             "location": "los angeles, ca",
-            "dates": "Janurary 2000 - Current",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            "employer": "Remote Full Benefit Job #2",
-            "title": "Front-end Web Designer",
-            "location": "los angeles, ca",
-            "dates": "Janurary 2000 - Current",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            "employer": "Remote Full Benefit Job #3",
-            "title": "Front-end Web Designer",
-            "location": "los angeles, ca",
-            "dates": "Janurary 2000 - Current",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "dates": "Sept 2012 - Dec 2017",
+            "description": "Plan, organize and implement an appropriate instructional program in a learning environment that guides and encourages students to develop and fulfill their academic potential. Independently developed multiple lesson plans for a variety of courses and delivered strong presentations with clear communication skills."
         }
     ]
 };
@@ -85,13 +71,23 @@ work.display = function() {
 
 var projects = {
     "projects": [{
+            "title": "Remote Job Portfolio #222",
+            "dates": "2017",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "images": [
+                "images/Michelle.jpg",
+                "images/Joe.JPG",
+                "images/Laura.jpg"
+            ]
+        },
+        {
             "title": "Remote Job Portfolio #111",
             "dates": "2017",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "images": [
-                "images/ending-800_large_1x.jpg",
-                "images/IMG_0113-768x1024-800_large_1x.jpg",
-                "images/IMG_0002.JPG"
+                "images/Campin-coverpic.png",
+                "images/Hitch Hikers-coverpic.png",
+                "images/Clozet-coverpic.png"
             ]
         },
         {
@@ -99,9 +95,7 @@ var projects = {
             "dates": "2017",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "images": [
-                "images/IMG_0190-800_large_1x.jpg",
-                "images/DSC00190.JPG",
-                "images/IMG_1433-4-1024x768-800_large_1x.jpg"
+                "images/flower_power.png"
             ]
         }
     ]
@@ -128,12 +122,12 @@ projects.display = function() {
 
 var education = {
     "schools": [{
-        "name": "",
-        "location": "Los Angeles, ca",
-        "degree": "",
-        "majors": [""],
+        "name": "Art Institute",
+        "location": "Los Angeles, Ca",
+        "degree": "BS",
+        "majors": ["Restaurant Management", "Baking, Pastry and Dessert"],
         "dates": "",
-        "url": ["http://example.com/"]
+        "url": ["https://www.artinstitutes.edu/los-angeles"]
     }],
     "onlineCourses": [{
             "title": "Front-End Web Developer",
