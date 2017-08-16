@@ -7,17 +7,17 @@ var bio = {
     "contacts": {
         "mobile": "(310) 683-8953",
         "email": "JoshuaSBruck@gmail.com",
-        "github": "Github.com/TheChefGuy",
+        "github": "TheChefGuy",
         "location": "Los Angeles, Ca",
         "residence": [
-            "boulder, colorado", "new york, new york"
+            "boulder, colorado", "new york city, new york"
         ]
     },
     "welcomeMessage": "\"The day I broke up with normal, was the first day of my magical life!\"",
     "skills": [
         "UX / UI", " HTML5 / CSS3", " JS / jQuery", " GitHub / GruntJS" , "Photoshop / Sketch"
     ],
-    "biopic": "images/MG_3764-1-683x1024-500x500-800_large_1x.jpg"
+    "biopic": "images/biopic.jpg"
 };
 
 bio.display = function() {
@@ -71,9 +71,9 @@ work.display = function() {
 
 var projects = {
     "projects": [{
-            "title": "Remote Job Portfolio #222",
+            "title": "User Personas - Campin\'",
             "dates": "2017",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Career Foundry provided instruction for the UX process. I followed the guidelines to create diagrams featuring my unique style and approach.",
             "images": [
                 "images/Michelle.jpg",
                 "images/Joe.JPG",
@@ -81,21 +81,23 @@ var projects = {
             ]
         },
         {
-            "title": "Remote Job Portfolio #111",
+            "title": "Portfolio Website/App Designs",
             "dates": "2017",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "This is a collection of some of my most recent designs. These samples are coursework from the Career Foundry Program. I can share .pdf files that contain low/high fidelity wireframes and completed designs upon request.",
             "images": [
-                "images/Campin-coverpic.png",
-                "images/Hitch Hikers-coverpic.png",
-                "images/Clozet-coverpic.png"
+                "images/Campin-coverpic.jpg",
+                "images/HH-coverpic.jpg",
+                "images/Clozet-coverpic.jpg"
             ]
         },
         {
-            "title": "Remote Job Portfolio #222",
+            "title": "Object-Oriented Programing",
             "dates": "2017",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "These programs were done as part of the Udacity Program. The files are located on my GitHub.",
             "images": [
-                "images/flower_power.png"
+                "images/seirpinski_triangle.png",
+                "images/flower_power.png",
+                "images/entertainment.png"
             ]
         }
     ]
@@ -125,8 +127,8 @@ var education = {
         "name": "Art Institute",
         "location": "Los Angeles, Ca",
         "degree": "BS",
-        "majors": ["Restaurant Management", "Baking, Pastry and Dessert"],
-        "dates": "",
+        "majors": ["Restaurant Management and", " Baking, Pastry & Desserts"],
+        "dates": "2007",
         "url": ["https://www.artinstitutes.edu/los-angeles"]
     }],
     "onlineCourses": [{
