@@ -15,13 +15,13 @@ module.exports = function(grunt) {
           expand: true,
           src: ['*.{gif,jpg,png}'],
           cwd: 'images/',
-          dest: 'images/'
+          dest: 'images/dist'
         }]
       }
     },
   });
 
   grunt.loadNpmTasks('grunt-responsive-images');
-  grunt.registerTask('default', ['responsive_images']);
+  grunt.registerTask('default',['responsive_images']);
 
 };
