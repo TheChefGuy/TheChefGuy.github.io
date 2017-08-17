@@ -1,24 +1,16 @@
 {
-  "name": "reponsive-images",
+  "name": "js_resume",
   "version": "0.1.0",
   "author": "Joshua Bruck",
   "private": true,
   "devDependencies": {
     "grunt": "*",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-imagemin": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-nodeunit": "*",
-    "grunt-contrib-sass": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-cssc": "*",
-    "grunt-htmlhint": "*",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-minify-html": "^3.0.0",
     "grunt-responsive-images": "^0.1.9",
     "matchdep": "*"
-  },
-  "dependencies": {
-    "grunt-responsive-images": "^0.1.9"
   },
   "main": "Gruntfile.js",
   "scripts": {
@@ -33,5 +25,8 @@
     "url": "https://github.com/TheChefGuy/js-resume/issues"
   },
   "homepage": "https://github.com/TheChefGuy/js-resume#readme",
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.9"
+  },
   "description": ""
 }
