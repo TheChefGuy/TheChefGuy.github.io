@@ -17,7 +17,7 @@ var bio = {
     "skills": [
         "UX / UI", " HTML5 / CSS3", " JS / jQuery", " GitHub / GruntJS" , "Photoshop / Sketch"
     ],
-    "biopic": "images/biopic.jpg"
+    "biopic": "build/img/biopic-800.jpg"
 };
 
 bio.display = function() {
@@ -71,13 +71,13 @@ work.display = function() {
 
 var projects = {
     "projects": [{
-            "title": "User Personas - Campin\'",
+            "title": "User Personas Research - Campin\'",
             "dates": "2017",
             "description": "Career Foundry provided instruction for the UX process. I followed the guidelines to create diagrams featuring my unique style and approach.",
             "images": [
-                "images/Michelle.jpg",
-                "images/Joe.JPG",
-                "images/Laura.jpg"
+                "build/img/Michelle-800.jpg",
+                "build/img/Joe-800.jpg",
+                "build/img/Laura-800.jpg"
             ]
         },
         {
@@ -85,9 +85,11 @@ var projects = {
             "dates": "2017",
             "description": "This is a collection of some of my most recent designs. These samples are coursework from the Career Foundry Program. I can share .pdf files that contain low/high fidelity wireframes and completed designs upon request.",
             "images": [
-                "images/Campin-coverpic.jpg",
-                "images/HH-coverpic.jpg",
-                "images/Clozet-coverpic.jpg"
+                "build/img/Campin-coverpic-800.jpg",
+                "build/img/HH-coverpic-800.jpg",
+                "build/img/Clozet-coverpic-800.jpg",
+                "build/img/Campin-webpic-800.png",
+                "build/img/dm-webpic-800.png"
             ]
         },
         {
@@ -95,9 +97,9 @@ var projects = {
             "dates": "2017",
             "description": "These programs were done as part of the Udacity Program. The files are located on my GitHub.",
             "images": [
-                "images/seirpinski_triangle.png",
-                "images/flower_power.png",
-                "images/entertainment.png"
+                "build/img/seirpinski_triangle-800.png",
+                "build/img/flower_power-800.png",
+                "build/img/entertainment-800.png"
             ]
         }
     ]
