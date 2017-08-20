@@ -171,6 +171,10 @@ img {
   width: 30%;
 }
 
+#wireframe {
+  min-width: 100%;
+}
+
 span {
   padding: 5px;
 }

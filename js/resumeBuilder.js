@@ -78,7 +78,8 @@ var projects = {
                 "build/img/Michelle-800.jpg",
                 "build/img/Joe-800.jpg",
                 "build/img/Laura-800.jpg"
-            ]
+            ],
+            "wireframe": ["build/img/Wireframes-800.jpg"]
         },
         {
             "title": "Portfolio Website/App Designs",
@@ -90,7 +91,8 @@ var projects = {
                 "build/img/Clozet-coverpic-800.jpg",
                 "build/img/Campin-webpic-800.png",
                 "build/img/DM-webpic-800.png"
-            ]
+            ],
+            "wireframe": ""
         },
         {
             "title": "Object-Oriented Programing",
@@ -100,7 +102,8 @@ var projects = {
                 "build/img/seirpinski_triangle-800.png",
                 "build/img/flower_power-800.png",
                 "build/img/entertainment-800.png"
-            ]
+            ],
+            "wireframe": ""
         }
     ]
 };
@@ -119,8 +122,14 @@ projects.display = function() {
             project.images.forEach(function(image) {
                 var formattedImage = HTMLprojectImage.replace("%data%", image);
                 $(".project-entry:last").append(formattedImage);
-            });
-        }
+            })
+        };
+        if (project.wireframe.length > 0) {
+            project.wireframe.forEach(function(frame) {
+                var formattedWireframe = HTMLprojectWireframe.replace("%data%", frame);
+                $(".project-entry:last").append(formattedWireframe);
+            })
+        };
     });
 };
 
