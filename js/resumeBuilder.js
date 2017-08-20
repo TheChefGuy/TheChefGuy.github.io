@@ -89,7 +89,7 @@ var projects = {
                 "build/img/HH-coverpic-800.jpg",
                 "build/img/Clozet-coverpic-800.jpg",
                 "build/img/Campin-webpic-800.png",
-                "build/img/DB-webpic-800.png"
+                "build/img/DM-webpic-800.png"
             ]
         },
         {
